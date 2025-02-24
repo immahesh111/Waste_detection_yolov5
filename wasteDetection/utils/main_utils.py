@@ -17,8 +17,6 @@ def read_yaml_file(file_path: str) -> dict:
         raise AppException(e, sys) from e
     
 
-
-
 def write_yaml_file(file_path: str, content: object, replace: bool = False) -> None:
     try:
         if replace:
