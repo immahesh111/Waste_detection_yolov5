@@ -87,11 +87,7 @@ class TrainPipeline:
         except Exception as e:
             raise AppException(e, sys)
         
-        
 
-        
-
-    
 
     def run_pipeline(self) -> None:
         try:
